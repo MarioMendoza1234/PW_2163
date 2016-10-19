@@ -1,0 +1,40 @@
+body
+{
+	font-size: 16px; /*1EM*/
+	margin: 0 auto;
+	max-width: 1078px; /*decisón de la empresa*/
+	min-width: 1078px; 
+}
+
+header input
+{
+	float: right;
+	margin-right: -180px;
+	margin-top: 15px;
+	position: relative;
+}
+
+header nav ul li
+{
+	border-bottom: solid gray;
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	/*text-decoration: underline;*/
+	margin-right: 15px;
+	/*text-align: center;*/
+
+}
+
+#granthams /*logo de la empresa*/
+{
+	margin-top: 20px;
+	margin-left: 25px;
+
+}
+
+#paint
+{
+	float: right;
+	margin-top: 20px;
+}
