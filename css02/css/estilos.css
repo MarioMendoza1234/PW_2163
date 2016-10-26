@@ -5,6 +5,12 @@ body
 	max-width: 1078px; /*decisión de la empresa*/
 	min-width: 1078px;
 }
+footer
+{
+	border: 1px solid red;
+
+}
+/*footer */
 header input
 {
 	float: right;
@@ -33,10 +39,19 @@ header nav ul li
 	top: -410px;
 
 }
+#facebook
+{
+	float: right;
+	margin-top: 20px;
+}
 #granthams /*logo de la empresa*/
 {
 	margin-top:  20px;
 	margin-left: 25px;
+}
+#mailinglist
+{
+	padding-top: 40px;
 }
 #paint
 {
@@ -66,6 +81,17 @@ header nav ul li
 {
 	width: 30%;
 }
+#secc01art02 ul
+{
+	list-style: none;
+	padding-left: 10px;
+}
+#secc01art02 ul li:before
+{
+	color: #FF0099;
+	content: "· ";
+	/*font-size: 1.2em;*/
+}
 #segundaseccion article
 {
 	text-align: right;
@@ -74,9 +100,30 @@ header nav ul li
 #terceraseccion article
 {
 	display: inline-block;
-	margin: 0px 10px 0px 0px;
+	/*margin: 0px 10px 0px 0px;*/
 	vertical-align: top;
 	width: 23%;
+}
+#terceraseccion article img
+{
+	vertical-align: middle;
+}
+.colorazul
+{
+	color: #16BEF8;
+}
+.colorrosa
+{
+	color: #F4A3C6;
+}
+.colorverde
+{
+	color: #A6DE46;
+}
+.colorazul,.colorrosa,.colorverde
+{
+	font-size: 1.2em;
+	font-weight: bold;
 }
 .numerotelefono
 {
