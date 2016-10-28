@@ -1,0 +1,97 @@
+body
+{
+	border: 1px solid red;
+	font-family: arial;
+	font-size: 0.8em;
+	margin: 0px auto;
+	max-width: 1024px;
+}
+/*footer{
+	background: red;
+}*/
+footer article
+{	
+	color: gray;
+	margin: 0px 10px 0px 10px;
+	font-size: 0.8em;
+	display: inline-block;
+	vertical-align: top
+
+}
+header nav ul li
+{
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0px 30px 0px 0px;
+	margin-left: -20px;
+}
+/*section
+{
+	display: inline-block;
+}*/
+#balance
+{
+	color: #78F04C;
+}
+#buy
+{
+	position: relative;
+	right: -550px;
+	top: -50px;
+
+}
+#imagenes
+{
+	float:right;
+}
+#logos
+{
+	position: relative;
+	top:-20px;
+}
+#s1art01
+{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+#s2 article
+{
+
+	display: inline-block;
+	margin-right: -30px
+}
+#s2 article img
+{
+	width: 38%;
+}
+#s3 article img
+{
+
+	display: inline-block;
+	max-height: 400px;
+	max-width: 	400px;
+}
+#s3art01
+{
+
+	float: right;
+	margin-top: -400px;
+	margin-right: 150px
+	
+}
+#s3art02
+{
+	position: relative;
+	right: -550px;
+	top: -50px;
+
+}
+#texto
+{
+	color: gray;
+}
+.bordes
+{
+	border-bottom: 1px solid gray;
+}
