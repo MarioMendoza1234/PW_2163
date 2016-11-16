@@ -3,7 +3,13 @@ var inicio = function() //main
 {
 	var dameclick = function()
 	{
-		alert("le di click a un botón")
+		$.ajax({
+  			url: 'https://randomuser.me/api/',
+  			dataType: 'json',
+  			success: function(data) {
+   			 console.log(data.results[0].name.first+" "+data.results[0].name.last);
+  			}
+		});  
 	}
 	$("#dameClick").on("click",dameclick);
 }
