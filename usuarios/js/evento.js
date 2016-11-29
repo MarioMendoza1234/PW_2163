@@ -10,7 +10,11 @@ var inicioUsuarios = function()
 						"&clave="+clave+
 						"&id="+Math.random();
 		//hacemos la petición remota
-		$.ajax({
+
+		//validamos que no estén vacíos los campos
+		if(usuario!="" && clave!="")
+			{
+				$.ajax({
 			cache:false, 
 			type:"POST",
 			dataType:"json",
@@ -18,15 +22,20 @@ var inicioUsuarios = function()
 			data:parametros,
 			success: function(response){
 				//si jala 
+				if(response.respuesta == true)
+				{
+					$("entradaUsuario").hide();
+					$("nav").show();
+				}
+				else
+				{
+					alert("Datos incorrectos")
+				}
 			},
 			error: function(xhr,ajaxOptions,thrownError){
 				//si no jala 
 			}
-		});
-		//validamos que no estén vacíos los campos
-		if(usuario!="" && clave!="")
-			{
-
+				});
 			}
 		else
 			{
