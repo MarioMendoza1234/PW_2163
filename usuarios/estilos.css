@@ -1,11 +1,10 @@
 body
 {
-	margin 0 auto;
+	margin: 0 auto;
 	max-width: 1024px;
-
 }
 header{
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	text-align: center;
 }
 header img /*logo*/
@@ -16,15 +15,22 @@ header img /*logo*/
 }
 header nav
 {
-	display: none;
+	display: none; 
 }
-header nav ul li  
+header nav ul li
 {
 	margin-right: 10px;
 	display: inline-block;
 }
+main article
+{
+	display: none;
+	margin: 0 auto;
+	width: 250px;
+}
 #entradaUsuario
 {
 	margin: 0 auto;
-	width:350px;
+	width: 350px;
 }
+

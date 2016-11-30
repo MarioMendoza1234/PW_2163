@@ -1,13 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Sistema de prueba</title>
+	<title>Sistema de prueba</title>	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="js/eventos.js"></script>
-	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/eventos.js"></script>
+  
+
 </head>
 <body>
 	<header>
@@ -22,7 +23,7 @@
 					</button>
 				</li>
 				<li>
-					<button class="btn btn-primary">
+					<button class="btn btn-primary" id="btnAlta">
 						<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 						Alta
 					</button>
@@ -63,6 +64,25 @@
 			  </div>
 			</div>
 		</article>
+	</section>
+	<section>
+	<main>
+		<article>
+			<h2>Alta de Usuarios</h2>
+			<input type="text" id="txtUsuario" placeholder="Usuario" class ="form-control">
+			<input type="text" id="txtNombre" placeholder="Nombre" class ="form-control">
+			<input type="text" id="txtClave" placeholder="Clave" class ="form-control">	
+			<select name="txtTipo" id="txtTipo" class="form-control">
+				<option value="ninguno">Seleccione una opción</option>
+				<option value="administrador"Administrador</option>
+				<option value="invitado">Invitado</option>
+				<option value="colado">Colado</option>
+			</select>
+			<button class="btn btn-success btn-lg btn-block" id="btnGuardarUsuario">
+				Guardar
+			</button>
+		</article>
+	</main>
 	</section>
 </body>
 </html>
