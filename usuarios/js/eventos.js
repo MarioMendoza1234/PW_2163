@@ -49,13 +49,23 @@ var inicioUsuarios = function()
 	{
 		if(tecla.which==13) //tecla enter
 		{
-			validarUsuario(); //función que valida al usuario
+			validaUsuario(); //función que valida al usuario
 
 		}
 	}
+	var alta= function()
+	{
+		$("#artAltaUsuarios").show("slow")
+	}
+	var GuardarUsuario = function();
+	{
+		
+	}
 	//keypress: se ejecuta cada vez que presiono una 
 	//tecla sobre el input.
-	%("txtClave").on("keypress",teclaClave);
+	$("#txtClave").on("keypress",teclaClave);
+	$("#btnAlta").on("click",alta);
+	$("btnGuardaUsuario").on("click",GuardarUsuario)
 }
 //Evento inicial
 $(document).on("ready",inicioUsuarios);
